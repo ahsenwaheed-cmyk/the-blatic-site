@@ -1,0 +1,65 @@
+window.F=[
+ {id:'blacman',nm:'Blacman',sr:'∞ Series',tags:['inf'],p:5999,w:6999,st:'Best seller',rev:54,c:['#5d6064','#2b2d30'],img:['blacman-1','blacman-2','blacman-6','blacman-4'],
+  bl:'The original Blatic icon. A bold rectangular polycarbonate frame with tinted lenses and a serial number on every pair.',
+  ft:['Serial-numbered pair, 101 to ∞','Reinforced metal hinge','THE BLATIC etched on the right arm','Curved ear arms and integrated nose support','UV400 lenses'],sz:[70,20,140]},
+ {id:'v2',nm:'Blacman V2 Polarized',sr:'∞ Series',tags:['inf','pol','new'],p:11999,w:14999,st:'Polarized',rev:0,c:['#b8bbbe','#3a3c3f'],img:['v2-1','v2-2','v2-3','blacman-3'],
+  bl:'Blacman, evolved. A liquid crystal frame that shows its own construction, upgraded polarized lenses and individual numbering from 1/∞.',
+  ft:['Polarized lenses cut reflected glare','Transparent liquid crystal frame','Numbered from 1/∞','BLACMAN // V2.0 temple insignia','UV400 lenses']},
+ {id:'tieland',nm:'Tieland',sr:'III Planet',tags:['planet'],p:8999,st:'Best seller',rev:11,c:['#dcd9cb','#151618'],img:['tieland-1','tieland-3','tieland-2'],
+  bl:'Transparency without weakness. A crystal-clear frame, midnight black lenses and an exposed gold core finished with Tectonic Flow engraving.',
+  ft:['Crystal polycarbonate frame','Midnight black lenses, UV400','Exposed gold-toned metal core','Triple-pin hinge','Rounded-square silhouette']},
+ {id:'torino',nm:'Torino',sr:'III Planet',tags:['planet'],p:8999,st:'35 left',rev:10,c:['#5b3524','#8a5a3a'],img:['torino-1','torino-3','torino-2'],
+  bl:'Vintage shape, engineered detail. A translucent smoke-brown front on slim floating metal temples, with brown gradient lenses.',
+  ft:['Transparent smoke TR front','Metal and TR hybrid temples','Brown gradient lenses, UV400','Crown insignia on the lens'],sz:[48,22,145]},
+ {id:'boss',nm:'Boss',sr:'III Planet',tags:['planet'],p:6999,w:7999,rev:6,c:['#6b3d20','#9a6526'],img:['boss-1','boss-3','boss-2'],
+  bl:'A squared aviator in translucent earth-toned polyacetate, paired with warm tobacco lenses for calm, high-contrast vision.',
+  ft:['Premium polyacetate frame','Terra amber lenses, UV400','Metal diamond temple accent','Laser-etched branding, tri-pin temples']},
+ {id:'duskull',nm:'Duskull',sr:'III Planet',tags:['planet'],p:6999,st:'Sold out',out:1,rev:4,c:['#141415','#c87418'],img:['duskull-1','duskull-2','duskull-3'],
+  bl:'Earth at twilight. A gloss black soft-square frame with Terra amber lenses, made for low-profile personalities.',
+  ft:['Gloss black polycarbonate','Terra amber lenses, UV400','Triple-bar temple insignia','Sculpted comfort bridge'],sz:[49,18,141]},
+ {id:'bot',nm:'Bot',sr:'III Planet',tags:['planet'],p:6999,st:'Last one',rev:0,c:['#2a2b2d','#4a4b4e'],img:['bot-1','bot-2','bot-3'],
+  bl:'Machine precision meets human intent. A carbon-fibre textured wraparound with smoke lenses and a raised structural spine.',
+  ft:['Carbon fibre textured frame','Smoke black lenses, UV400','Aerodynamic wraparound','Ergonomic grip temples']},
+ {id:'mono',nm:'Mono',sr:'Core Series',tags:['new'],p:6999,st:'Back on demand',rev:7,c:['#121213','#2e2f31'],img:['mono-1','mono-2','mono-3'],
+  bl:'Built on restraint. A gloss black monolithic frame, smoke lenses and a gold triple-bar insignia. The foundation of the Blatic design language.',
+  ft:['Monolithic black polycarbonate','Smoke black lenses, UV400','Gold triple-bar temple insignia','Integrated temple flow']},
+ {id:'poly',nm:'Poly',sr:'Burgundy Edition',tags:['new'],p:6999,st:'New',rev:0,c:['#5e1a24','#e7a39a'],img:['poly-1','poly-3','poly-2'],
+  bl:'Luxury isn\'t always black. A translucent burgundy frame with rose-to-peach gradient lenses and polished gold rivets.',
+  ft:['Deep burgundy polycarbonate','Rose gradient lenses, UV400','Exposed gold metal core temples','Gold rivet accents']},
+ {id:'million',nm:'Million',sr:'2026 Collection',tags:['new'],p:5249,w:6999,st:'New',rev:0,c:['#c9a24a','#7a4a1e'],img:['million-1','million-3','million-2'],
+  bl:'A sharp geometric cat-eye in polished gold with warm amber lenses. Equally at home in the city, at a resort or behind the wheel.',
+  ft:['Golden amber lenses, UV400','Precision gold frame','Adjustable silicone nose pads','Crown engraved on the lens']},
+ {id:'chad',nm:'ChadGPT',sr:'∞ Series',tags:['inf'],p:6999,st:'Sold out',out:1,rev:22,c:['#8f9294','#45484b'],img:['chad-1','chad-3','chad-2'],
+  bl:'For the hidden innovators. A sleek grey frame with grey lenses, each pair serialised from 101 to ∞.',
+  ft:['Individually numbered, 101 to ∞','Grey polycarbonate frame','Grey lenses, UV400','Crown etched on the lens'],sz:[47,23,145]},
+ {id:'matcha',nm:'Matcha',sr:'The Original',tags:[],p:6999,st:'No restock',rev:15,c:['#2f6b2c','#1e3a1f'],img:['matcha-1','matcha-3','matcha-2'],
+  bl:'The one that started it all. The deep green round frame from our very first collection, still built for everyday wear.',
+  ft:['Heritage green TR frame','Dark green lenses, UV400','Crown on the lens, branding at the temples','Curved ear arms'],sz:[42,20,145]},
+ {id:'joker',nm:'Joker',sr:'2025 Designer Drop',tags:[],p:6999,st:'Sold out',out:1,rev:17,c:['#1f6a48','#a4561e'],img:['joker-1','joker-2','joker-3'],
+  bl:'Emerald crystal front, ember tortoise temples and charcoal lenses. Best on small to medium faces.',
+  ft:['Emerald crystal polycarbonate front','Carnival Ember tortoise temples','Charcoal grey lenses, UV400','Gold-plated hinge hardware']},
+ {id:'oliver',nm:'Oliver',sr:'Limited',tags:[],p:6999,st:'Sold out',out:1,rev:12,c:['#8d9a7c','#55603f'],img:['oliver-1','oliver-2','oliver-3'],
+  bl:'The calm within the chaos. A sage green square-rounded frame with green lenses and a gold crown on the lens.',
+  ft:['Sage green polycarbonate','Green lenses, UV400','Square-rounded geometry','Gold crown insignia'],sz:[47,23,145]},
+ {id:'nomad',nm:'Digi Nomad',sr:'Limited 1/50',tags:['inf'],p:6999,st:'Last one',rev:2,c:['#e2b23a','#3a3a3a'],img:['nomad-1','nomad-2','nomad-3'],
+  bl:'Fifty pieces, each numbered. A bold square frame in a matte Cyber Gold finish for people who build on the move.',
+  ft:['Numbered 1/50','Matte Cyber Gold finish','Reinforced metal hinge','UV400 lenses']}
+];
+/* sizes in mm: lens width, bridge, temple, lens height, frame front */
+var SIZE={blacman:[70,20,140],duskull:[49,18,141,40,144],torino:[48,22,145,47,140],chad:[47,23,145,38,148],matcha:[42,20,145,50,146],oliver:[47,23,145,38,148]};
+/* star averages from the published review breakdowns */
+var STARS={duskull:4.75,torino:4.9,chad:4.86,matcha:4.8,joker:4.76,oliver:4.92,nomad:5};
+var LOOK={blacman:'blacman-9',tieland:'tieland-2',torino:'torino-2',boss:'boss-2',poly:'poly-2',million:'million-2',matcha:'c-dsc02525',joker:'c-joker1',oliver:'c-oliver4',mono:'c-web1'};
+var REV={
+ blacman:[["The first thing that made me happy was the packaging. Then I saw the glasses and was even more impressed.","Zain Khan"],["Stylish, classy, and a premium look. Great for everyday wear as well as special occasions.","Wajahat Saeed"]],
+ tieland:[["This is a statement piece. I love the texture and the durability, and it carries class.","Sharoz Khan"],["Real good quality.","Ahmad Nouman"],["Amazing stuff.","Ahsan Ali"]],
+ torino:[["Best sunglasses I've ever owned. Premium quality, classy design, and super comfortable.","Zubair Raee"],["They look stylish and feel premium, but they're lightweight and comfortable to wear.","Mubashir"],["Classy product with good finishing. Loved it a lot.","Uzair Awan"]],
+ mono:[["Beautiful and high quality glasses.","Agha Gul"],["The quality was amazing.","Mansoor Ahmad"],["Really like the quality and style.","Saad"]],
+ duskull:[["Very good quality and stylish frames. 5 star recommendation.","Sharoon Bhatti"],["Really good quality, extremely satisfied. The try-on feature helped me check the frame size before ordering.","Verified buyer"]],
+ chad:[["The weight and fitting is very comfortable, which most sunglasses miss.","RA"],["Accurate size and top notch quality glasses.","Teeezy"],["Liked the frame build. Strong, sturdy. Face fit also falls nicely.","Bilal Tahir"]],
+ matcha:[["The packaging to the product, it was all perfect. The colour is so lovely.","Fatima Bilal"],["Your product and packaging is outclass.","Abidaziz"],["Loved Blatic for introducing out-of-convention pieces.","Saleh"]],
+ joker:[["Premium stuff and perfect design with a crazy colour combination.","Abdullah"],["The third one I've bought from Blatic. More premium than it looks in pictures.","Zahid Sayeed"],["They didn't suit my face shape. I reached out and they refunded me immediately.","Umar"]],
+ oliver:[["I gifted them to my husband. No shades have suited him this much.","Sarosh"],["Elegant, stylish and the quality is top notch.","Aalian Ahmed"],["Fantastic quality and a perfect fit right out of the box.","Bilal R"]],
+ nomad:[["Very impressed by the quality and the finish. The colour is unique, just like in the picture.","Ali S."],["Glasses are so good.","Fawad Khan"]]
+};
+var STORE_REV=[["Best sunglasses in reasonable price.","Jawad Hussain"],["Good quality. Quick delivery time. Nice packing.","Maha Arif"],["I received the frame in great packaging and the quality is great. True value for money.","Zull Khan"]];
